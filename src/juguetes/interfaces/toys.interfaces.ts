@@ -1,13 +1,13 @@
 export interface Toys{
 
-  id:number,
+  id:string,
   nombre:string,
   tipoDeJuguete:string,
   largo:number,
   ancho:number,
   sku:number,
-  fechaDeCreacion:string,
-  fechaDeActualizacion:string,
+  fechaDeCreacion:Date,
+  fechaDeActualizacion:Date,
   marca:string,
   precio:number
 }
